@@ -9,5 +9,4 @@ scipy
 scikit-learn
 pillow
 streamlit
-onnx
-tf2onnx
+
