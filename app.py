@@ -96,7 +96,7 @@ mask_image()
 def mask_detection():
     local_css("css/styles.css")
     st.markdown('<h1 align="center">😷 Face Mask Detection</h1>', unsafe_allow_html=True)
-    activities = ["Image", "Webcam"]
+    activities = ["Image", "ABOUT"]
     st.set_option('deprecation.showfileUploaderEncoding', False)
     st.sidebar.markdown("# Mask Detection on?")
     choice = st.sidebar.selectbox("Choose among the given options:", activities)
@@ -113,7 +113,7 @@ def mask_detection():
             if st.button('Process'):
                 st.image(RGB_img, use_column_width=True)
 
-    if choice == 'Webcam':
-        st.markdown('<h2 align="center">Detection on Webcam</h2>', unsafe_allow_html=True)
-        st.markdown('<h3 align="center">This feature will be available soon!</h3>', unsafe_allow_html=True)
+    if choice == 'ABOUT':
+        st.markdown('<h2 align="center">ABOUT</h2>', unsafe_allow_html=True)
+        st.markdown('<h3 align="center">Made by Rishav, Harsh and Aryan</h3>', unsafe_allow_html=True)
 mask_detection()

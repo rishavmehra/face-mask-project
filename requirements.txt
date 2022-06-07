@@ -9,4 +9,4 @@ scipy
 scikit-learn
 pillow
 streamlit
-
+opencv-python>=4.2.0.32
