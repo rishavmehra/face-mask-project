@@ -2,7 +2,6 @@ imutils==0.5.4
 matplotlib==3.5.2
 numpy>=1.21
 onnx==1.11.0
-opencv_python==4.5.5.64
 Pillow==9.1.1
 requests==2.25.1
 scikit_learn==1.1.1
